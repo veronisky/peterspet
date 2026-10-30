@@ -36,9 +36,11 @@ Os dois arquivos são criados sozinhos no primeiro pedido.
 
 ## Fotos reais dos produtos
 
-Por padrão cada produto aparece com uma ilustração no estilo do mascote.
-Para usar uma foto real, salve a imagem em `public/produtos/<id>.jpg`, usando o `id` do produto em `lib/produtos.js`
-(exemplo: `public/produtos/racao-caes-adultos.jpg`). Se o arquivo existir, ele aparece no lugar da ilustração.
+Os produtos usam fotos reais de `public/produtos/<id>.jpg`, onde `<id>` é o `id` do produto em `lib/produtos.js`
+(exemplo: `public/produtos/racao-caes-adultos.jpg`). Se o arquivo não existir, aparece a ilustração no estilo do mascote
+(hoje é o caso do `shampoo-neutro`).
+
+As fotos vêm do Wikimedia Commons, com licenças livres. A lista de créditos está em `public/produtos/CREDITOS.txt`.
 
 ## Segurança (bom para citar no trabalho)
 

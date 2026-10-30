@@ -7,3 +7,7 @@ node_modules/
 .trae/
 .trae-plugin/
 AGENTS.md
+
+# dados gerados em execucao
+pedidos.txt
+agendamentos.txt
